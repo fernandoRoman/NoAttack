@@ -1,0 +1,6 @@
+dstAddress=192.168.1.2
+port=10
+synNumber=5
+rstNumber=10
+time=35.2
+packetNumber=23
