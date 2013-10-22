@@ -22,22 +22,6 @@ public class Main implements Runnable
 			System.out.println("The arguments are not correct.");
 			System.exit(-1);
 		}
-		
-//		if(args.length == 0) {
-//			System.out.println("No flow detected.");
-//			System.exit(0);
-//		} else {
-//			
-//			try {
-//				InputStream file = new FileInputStream(args[INPUT_FILE_ARG]);
-//				flow = FlowTCP.fromBoundle(new PropertyResourceBundle(file));
-//				System.out.println("Flow loader:\n " + flow);
-//				
-//			} catch (Exception e) {
-//				System.out.println(e.getMessage());
-//				System.exit(-1);
-//			}
-//		}
 	}
 
 	public void run() {
