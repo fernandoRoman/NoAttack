@@ -9,7 +9,7 @@ import weka.core.Instances;
 import eetac.cities.noattack.model.Flow;
 
 public abstract class Analyzer<T extends Flow> {	
-	Instances trainInstances;
+	private Instances trainInstances;
 
 	protected Analyzer(String trainFile) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(trainFile));

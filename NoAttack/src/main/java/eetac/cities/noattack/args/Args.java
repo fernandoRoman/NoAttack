@@ -30,7 +30,7 @@ public class Args implements Serializable {
 				argsMap.put(splittedArg[0], splittedArg[1]);
 			}
 		} catch (Exception e) {
-			throw new ArgsException("Could not load args", e);
+			throw new ArgsException("Can't load args", e);
 		}
 		
 	}
@@ -51,7 +51,7 @@ public class Args implements Serializable {
 				Flow flow = FlowTCP.fromBoundle(new PropertyResourceBundle(fis));
 				flows.add(flow);
 			} catch (Exception e) {
-				throw new ArgsException("Could not get the flows", e);
+				throw new ArgsException("Can't not get the flows", e);
 			}		
 		}
 		
